@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <title>haohang的主页</title>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation-content">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#"><img src="img/logo.png"></a>
+        </div>
+        <div class="collapse navbar-collapse" id="navigation-content">
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="#">首页 </a></li>
+                <li><a href="about.html">简介</a></li>
+            </ul>
+            <form class="navbar-form navbar-right">
+                <div class="form-group">
+                    <input type="text" class="form-control" placeholder="请输入关键词">
+                </div>
+                <button type="submit" class="btn btn-info">search</button>
+            </form>
+        </div>
+    </div>
+</nav>
+<div class="container-fluid">
+    <div class="col-md-8">
+        <div class="panel panel-default">
+            <div class="panel-body">我的作品</div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2 class="item-title"><a href="#">一个基于媒体查询的响应式网站</a></h2>
+                <div class="itempic"><img src="img/item1.png"></div>
+                <a href="#"><span class="label label-warning">响应式</span></a>
+                <a href="#"><span class="label label-primary">HTML5</span></a>
+                <a href="#"><span class="label label-success">CSS3</span></a>
+                <a href="#"><span class="label label-info">Angularjs</span></a>
+                <a class="btn btn-info pull-right" href="#">点击跳转</a>
+            </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-body">
+                <h2 class="item-title"><a href="#">zepto+H5实现的带阅读器移动端书城</a></h2>
+                <div class="itempic"><img src="img/item2.png"></div>
+                <a href="#"><span class="label label-warning">webapp</span></a>
+                <a href="#"><span class="label label-primary">异步请求</span></a>
+                <a href="#"><span class="label label-success">jquery</span></a>
+                <a href="#"><span class="label label-info">localstorage</span></a>
+                <a class="btn btn-info pull-right" href="#">点击跳转</a>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <div class="panel panel-default">
+           <div class="headbg"></div>
+            <div class="headpic"><img src="img/me.jpg"></div>
+            <div class="blogname">
+                <h3>haohang</h3>
+            <ul class="status">
+                <li><span>2</span><br/>文章</li>
+                <li><span>2</span><br/>精选</li>
+                <li><span>8</span><br/>分类</li>
+            </ul>
+        </div>
+        </div>
+        <div class="panel panel-default">
+            <div class="panel-heading">分类</div>
+            <div class="panel-body">
+                <div class="tag-container">
+                    <a href="#">PHP<span class="badge">2</span></a>
+                    <a href="#">HTML5<span class="badge">4</span></a>
+                    <a href="#">CSS3<span class="badge">3</span></a>
+                    <a href="#">MYSQL<span class="badge">1</span></a>
+                    <a href="#">Angularjs<span class="badge">2</span></a>
+                    <a href="#">全栈开发<span class="badge">3</span></a>
+                    <a href="#">ES6<span class="badge">2</span></a>
+                    <a href="#">webapp<span class="badge">3</span></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+ <footer>
+     <div class="wrap">
+         <p>copyright @ 2017 haohang All Rights Reserved</p>
+     </div>
+ </footer>
+<script src="js/vendor/jquery.min.js"></script>
+<script src="js/vendor/bootstrap.min.js"></script>
+</body>
+</html>
