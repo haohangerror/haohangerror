@@ -24,12 +24,15 @@ a:hover{
 }
 .panel-body .item-title{
     margin-top: 0;
-    margin-bottom:20px;
+    margin-bottom:10px;
 }
 .panel-body .item-title a{
     font-weight: bold;
     font-size: 18px;
     color: #555;
+}
+.panel-body .explain{
+    color:#666;
 }
 .panel-body .itempic{
     margin-bottom: 20px;
